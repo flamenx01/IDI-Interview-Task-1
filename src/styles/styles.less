@@ -37,14 +37,20 @@ body { font-family: @main-font; }
 // An example of some LESS styles are provided below. Please remove or comment out when adding your own code.
 
 body {
-  padding: 30px;
+  padding: 0px;
 }
 
-.top {
+.top-bar {
+	background-color: #ededed;
     position:absolute;
     left:178px; right:0;
-    height: 92px;
+    height: 40px;
 }
+
+.top-text {
+	padding: 10px 10px 10px 10px;
+}
+
 .left {
 	background-color: @main-color;
     position:absolute;
@@ -57,9 +63,22 @@ body {
 }
 
 .logo {
-	padding: 40px 0 0 0;
+	padding: 40px 0 40px 0;
 
 }
+
+.ul-sidebar {
+	list-style-type: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0px 0 0 10px;
+}
+
+.li-sidebar {
+    padding: 10px 0 10px 0;
+}
+
+a { color: inherit; } 
 
 h1 { 
   background-color: @main-color;
