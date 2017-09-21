@@ -60,7 +60,9 @@
 	<div class="main">
 		<div class="flexContainer">
 			<div class="panel panel-default">
-					<div class="panel-body"><img src="images/profile.png"/></div>
+					<div class="panel-body panel-widget" style="min-width : 465px; min-height : 300px;">
+						<img style="width:100%; height:100%" src="images/profile.png"/>
+					</div>
 			</div>
 			
 			<div class="panel panel-default">
@@ -74,22 +76,47 @@
 			
 			
 			<div class="panel panel-default">
-					<div class="panel-body"><img src="images/notification.png"/></div>
+					<div class="panel-body panel-widget" style="min-width : 465px; min-height : 300px;">
+						<img style="width:100%; height:100%" src="images/notification.png"/>
+					</div>
 			</div>
 		</div>
 	<br/>
 		<div class="flexContainer">
-			<div class="panel panel-default">
+			<div class="panel panel-default" style="min-width : 350px; min-height : 400px;">
 					<div class="panel-heading">My Cohort</div>
-					<div class="panel-body"><img src="images/cohort.png"/></div>
+					<div class="panel-body pre-scrollable"><img src="images/cohort.png"/></div>
 			</div>
-			<div class="panel panel-default">
+			<div class="panel panel-default" style="min-width : 350px; min-height : 400px;">
 					<div class="panel-heading">My Tasks</div>
-					<div class="panel-body"><img src="images/tasks.png"/></div>
+					<div class="panel-body panel-widget" style="height:75%" >
+						<input type="text" class="form-control" placeholder="Add task here...">
+						<div class="checkbox" style=" padding: 0px 0 0 10px;">
+							<label><input type="checkbox" value="">Option 1</label>
+						</div>
+						<div class="checkbox" style=" padding: 0px 0 0 10px;">
+							<label><input type="checkbox" value="">Option 2</label>
+						</div>
+						<div class="checkbox" style=" padding: 0px 0 0 10px;">
+							<label><input type="checkbox" value="">Option 3</label>
+						</div>
+						<div class="checkbox" style=" padding: 0px 0 0 10px;">
+							<label><input type="checkbox" value="">Option 4</label>
+						</div>
+					</div>
+					<div class="panel-footer">
+						<div class="dropdown">
+							<button class="btn btn-secondary dropdown-toggle btn-sm" type="button" data-toggle="dropdown">Incomplete only
+							<span class="caret"></span></button>
+							<ul class="dropdown-menu">
+								<li><a href="#">Incomplete only</a></li>
+							</ul>
+						</div>						
+					</div>
 			</div>
 			<div class="panel panel-default">
 					<div class="panel-heading">September 2017</div>
-					<div class="panel-body"><img src="images/cal.png"/></div>
+					<div class="panel-body panel-widget" style="height:100%"><img src="images/cal.png"/></div>
 			</div>
 		</div>
 	</div>
