@@ -97,21 +97,9 @@ body {
     padding: 10px 0 10px 0;
 }
 
-.flexContainer {//used for wrapping widgets
-  display:flex;
-  flex-wrap: wrap;
-  max-height:1000px;
-
-  
-}
-.flexContainer > img {
-	flex:1;
-	margin:10px;
-}
-
 .panel{
 	margin:10px;
-
+	height: 90%;
 }
 
 .panel-widget{
@@ -140,6 +128,19 @@ background-color: white;
 
 .btn-MBA+.btn-MBA {
     margin-top: 25px;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  flex-grow: 1;
 }
 
 a { color: inherit; } 
